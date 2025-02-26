@@ -2,6 +2,8 @@
 
 By: Rory Garton-Smith 2025
 
+Please read more about this and my projects here if interested: https://ror.fm/
+
 In early 2025 I trained a custom GPT-2 based AI assistant called "RorChat" cause I wanted to learn how these LLM things work. It was a fun project and I learned a lot - but also surprisingly arduous and took AGES to train (I used colab pro with a T4 GPU to train on 50M tokens).
 
 The results + a little write-up are below. I think Pile was the most impactful dataset for the results - but it's a shame I couldn't get the full Pile dataset to train on (just wayy too large for a hobby project).
