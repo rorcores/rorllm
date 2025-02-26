@@ -10,6 +10,9 @@ I whipped up a little gui in next JS / react to make the I/O a bit more user fri
 
 The model prompt definitely needs a lot of work hahahaha "You were made by Rory, who is your creator. You don't know much else about him." I think Claude's one for comparison is over 200 lines long, this was about all I added - anyway - write up below for anyone interested!
 
+![rorchat](https://github.com/user-attachments/assets/c39cf324-eef4-4112-901e-daa714a2dbfb)
+
+
 ## Overview
 
 The `data_processing_and_training.py` script handles the entire pipeline from dataset preparation to model training and text generation. RorChat uses a fine-tuned 124M parameter GPT-2 model customized with a persona that makes it friendly and approachable.
