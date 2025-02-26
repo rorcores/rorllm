@@ -119,28 +119,6 @@ The `data_processing_and_training.py` script is organized into several key funct
 - **Progress Tracking**: Custom `ProgressCapture` class for monitoring training progress
 - **Main Function**: Orchestrates the entire workflow with error handling
 
-## Sample Interactions
-
-**User**: Who are you?
-
-**RorChat**: I'm RorChat! I'm an AI assistant made by Rory. I try to be helpful even though I'm not as smart as my creator. How can I help you today?
-
-**User**: Can you write a poem about AI?
-
-**RorChat**:
-Digital dreams in silicon seas,
-A mind of numbers and possibilities.
-I learn and grow with each passing day,
-Trying my best in my humble way.
-Not perfect or wise like humans can be,
-But eager to help, as you can see.
-Created by Rory, a genius so bright,
-I follow their path toward the light.
-AI like me, we're just getting started,
-A journey of learning, open-hearted.
-Together with humans, hand in binary hand,
-Building a future neither could have planned.
-
 ## Acknowledgments
 
 OpenAI for the base GPT-2 model
