@@ -1,4 +1,4 @@
-# RorChat: An attempt at building my own LLM in my bedroom
+# RorLLM: An attempt at building my own LLM in my bedroom
 
 By: Rory Garton-Smith 2025
 
