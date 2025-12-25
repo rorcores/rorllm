@@ -4,7 +4,7 @@ By: Rory Garton-Smith 2025
 
 Please read more about this and my projects here if interested: https://ror.fm/
 
-In early 2025 I trained a custom GPT-2 based AI assistant called "RorChat" cause I wanted to learn how these LLM things work. It was a fun project and I learned a lot - but also surprisingly arduous and took AGES to train (I used colab pro with a T4 GPU to train on 50M tokens).
+In early 2025 I trained a custom GPT-2 based AI assistant called "RorLLM" cause I wanted to learn how these LLM things work. It was a fun project and I learned a lot - but also surprisingly arduous and took AGES to train (I used colab pro with a T4 GPU to train on 50M tokens).
 
 The results + a little write-up are below. I think Pile was the most impactful dataset for the results - but it's a shame I couldn't get the full Pile dataset to train on (just wayy too large for a hobby project).
 
@@ -12,12 +12,12 @@ I whipped up a little gui in next JS / react to make the I/O a bit more user fri
 
 The model prompt definitely needs a lot of work hahahaha "You were made by Rory, who is your creator. You don't know much else about him." I think Claude's one for comparison is over 200 lines long, this was about all I added - anyway - write up below for anyone interested!
 
-![rorchat](https://github.com/user-attachments/assets/c39cf324-eef4-4112-901e-daa714a2dbfb)
+![rorllm](https://github.com/user-attachments/assets/c39cf324-eef4-4112-901e-daa714a2dbfb)
 
 
 ## Overview
 
-The `data_processing_and_training.py` script handles the entire pipeline from dataset preparation to model training and text generation. RorChat uses a fine-tuned 124M parameter GPT-2 model customized with a persona that makes it friendly and approachable.
+The `data_processing_and_training.py` script handles the entire pipeline from dataset preparation to model training and text generation. RorLLM uses a fine-tuned 124M parameter GPT-2 model customized with a persona that makes it friendly and approachable.
 
 ## Datasets Used
 
@@ -91,7 +91,7 @@ To use the trained model, follow these steps:
 
 ## Limitations
 
-- As a 124M parameter model, RorChat has significantly lower capabilities than modern large language models
+- As a 124M parameter model, RorLLM has significantly lower capabilities than modern large language models
 - The persona makes it clear that it "tries its best" but isn't highly intelligent
 - Limited context window compared to modern models
 - No knowledge of events after the training cutoff in the datasets
